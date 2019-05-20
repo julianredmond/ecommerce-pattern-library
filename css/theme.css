@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #FFC64D;
+  --color-secondary: #806326;
+  --color-accent: #FFAD00;
+  --color-background: #CC8B00;
+  --color-text: #000000;
+
+  --font-primary: "Oswald", sans-serif;
+  --font-secondary: "Hind", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
