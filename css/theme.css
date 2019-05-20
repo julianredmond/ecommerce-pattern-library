@@ -7,8 +7,43 @@
 
   --font-primary: "Oswald", sans-serif;
   --font-secondary: "Hind", sans-serif;
+
+  --weight-semibold: bolder;
+  --weight-medium: bold;
+  --weight-regular: normal;
+  --weight-light: lighter;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  font-weight: var(--weight-semibold);
+  color: var(--color-text);
+}
+
+h2 {
+  font-family: var(--font-primary);
+  font-weight: var(--weight-light);
+  color: var(--color-text);
+}
+
+h3 {
+  font-family: var(--font-primary);
+  font-weight: var(--weight-medium);
+  color: var(--color-text);
+}
+
+h4 {
+  font-family: var(--font-primary);
+  font-weight: var(--weight-regular);
+  color: var(--color-text);
+}
+
+h5 {
+  font-family: var(--font-primary);
+  font-weight: var(--weight-regular);
+  color: var(--color-text);
 }
