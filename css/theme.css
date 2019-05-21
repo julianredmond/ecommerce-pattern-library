@@ -8,10 +8,13 @@
   --font-primary: "Oswald", sans-serif;
   --font-secondary: "Hind", sans-serif;
 
-  --weight-semibold: bolder;
-  --weight-medium: bold;
-  --weight-regular: normal;
-  --weight-light: lighter;
+  --font-weight-bold: bolder;
+  --font-weight-medium: bold;
+  --font-weight-normal: normal;
+  --font-weight-light: lighter;
+
+  --font-style-normal: normal;
+  --font-style-italic: italic;
 }
 
 html {
@@ -19,31 +22,41 @@ html {
 }
 
 h1 {
-  font-family: var(--font-primary);
-  font-weight: var(--weight-semibold);
-  color: var(--color-text);
+  font-weight: var(--font-weight-bold);
 }
 
 h2 {
-  font-family: var(--font-primary);
-  font-weight: var(--weight-light);
-  color: var(--color-text);
+  font-weight: var(--font-weight-light);
 }
 
 h3 {
+  font-weight: var(--font-weight-medium);
+}
+
+h4, h5 {
+  font-weight: var(--font-weight-normal);
+}
+
+h1, h2, h3, h4, h5 {
   font-family: var(--font-primary);
-  font-weight: var(--weight-medium);
   color: var(--color-text);
 }
 
-h4 {
+ul, ol, dl {
   font-family: var(--font-primary);
-  font-weight: var(--weight-regular);
+  font-weight: var(--font-weight-normal);
   color: var(--color-text);
 }
 
-h5 {
+a {
   font-family: var(--font-primary);
-  font-weight: var(--weight-regular);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text);
+}
+
+blockquote, cite {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-normal);
+  font-style: var(--font-style-normal);
   color: var(--color-text);
 }
