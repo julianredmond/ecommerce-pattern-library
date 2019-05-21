@@ -56,7 +56,28 @@ a {
 
 blockquote, cite {
   font-family: var(--font-primary);
+  font-weight: var(--font-weight-medium);
+  font-style: var(--font-style-italic);
+  color: var(--color-text);
+}
+
+q {
+  font-family: var(--font-primary);
   font-weight: var(--font-weight-normal);
+  font-style: var(--font-style-italic);
+  color: var(--color-text);
+}
+
+em {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-medium);
+  font-style: var(--font-style-normal);
+  color: var(--color-text);
+}
+
+strong {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-bold);
   font-style: var(--font-style-normal);
   color: var(--color-text);
 }
