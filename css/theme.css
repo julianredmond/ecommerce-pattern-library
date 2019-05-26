@@ -1,12 +1,13 @@
 :root {
   --color-primary: #FFC64D;
+  --color-primary-dark: #FFAD00;
   --color-secondary: #806326;
-  --color-accent: #FFAD00;
-  --color-background: #CC8B00;
+  --color-secondary-light: #CC8B00;
   --color-text: #000000;
+  --color-text-secondary: #ffffff;
 
-  --font-primary: "Oswald", sans-serif;
-  --font-secondary: "Hind", sans-serif;
+  --font-primary: "Hind", sans-serif;
+  --font-secondary: "Oswald", sans-serif;
 
   --font-weight-bold: bolder;
   --font-weight-medium: bold;
@@ -18,7 +19,7 @@
 }
 
 html {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
 }
 
 h1 {
@@ -38,12 +39,12 @@ h4, h5 {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   color: var(--color-text);
 }
 
 ul, ol {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   font-weight: var(--font-weight-normal);
   color: var(--color-text);
 }
@@ -53,7 +54,7 @@ dt {
 }
 
 a {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   font-weight: var(--font-weight-light);
   color: var(--color-text);
 }

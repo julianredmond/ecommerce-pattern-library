@@ -2,4 +2,20 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Woodpushas"
+  description: |
+    An online skateboard goods store that carries high quality products.
   font_url: https://fonts.googleapis.com/css?family=Hind|Oswald"
+  colors:
+    accent: "--color-secondary"
+    patterns:
+      brand.logos: "--color-primary"
+  rationales:
+    typefaces.primary: |
+      Hind was selected because it is modern yet very readable. Hind is to be used for all body copy.
+    typefaces.secondary: |
+      Oswald was selected because of its modern and strong appearance. Oswald is to be used for anything that is not body copy.
+    colors.primary: |
+      The primary colours represent the wood used to build skateboards. They are to be used for banners and buttons.
+    colors.secondary: |
+      The secondary colours are darker, more neutral wood tones. They are to be used as background colours.

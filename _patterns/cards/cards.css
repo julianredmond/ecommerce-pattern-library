@@ -1,0 +1,46 @@
+.image-card {
+  background-color: var(--color-secondary);
+  color: var(--color-text-secondary);
+  border-radius: 10px;
+  max-width: 40rem;
+}
+
+.text-white {
+  color: var(--color-text-secondary);
+}
+
+.product-card, p {
+  color: var(--color-text);
+  max-width: 30rem;
+}
+
+.product-border {
+  background-color: var(--color-secondary);
+  border-radius: 10px;
+}
+
+.details-card {
+
+}
+
+.image-large {
+  max-width: 30rem;
+}
+
+.cart-card {
+
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.image-small {
+  max-width: 10rem;
+}
+
+.cart-border {
+  background-color: var(--color-secondary);
+  border-radius: 5px;
+  border-width: 10px;
+}
