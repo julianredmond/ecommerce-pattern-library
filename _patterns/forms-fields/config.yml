@@ -1,0 +1,37 @@
+title: "Forms and Fields"
+description: |
+  Forms and fields are to be used on the checkout page so the customer can enter information.
+
+patterns:
+  first-name:
+    title: "First Name"
+    description: |
+      The first name field allows the customer to enter their first name.
+  last-name:
+    title: "Last Name"
+    description: |
+      The last name field allows the customer to enter their last name.
+  address:
+    title: "Address"
+    description: |
+      The address field allows the customer to enter their home address.
+  postal-code:
+    title: "Postal Code"
+    description: |
+      The postal code field allows the customer to enter their home postal code.
+  email:
+    title: "Email"
+    description: |
+      The email field allows the customer to enter their personal email.
+  delivery-instructions:
+    title: "Delivery Instructions"
+    description: |
+      The delivery instructions field allows the customer to enter special delivery instructions for their order.
+  check-box:
+    title: "Check Box"
+    description: |
+      The check box field allows the customer to choose whether or not to have their order delivered to their home address.
+  country:
+    title: "Country"
+    description: |
+      The country field allows the customer to choose from a list of available countries.

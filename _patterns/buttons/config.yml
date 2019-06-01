@@ -1,0 +1,33 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Default to using the basic button. It should be used in front of light backgrounds.
+    width: "12em"
+    background: "--color-primary"
+  ghost:
+    title: "Ghost"
+    description: |
+      The ghost button is specifically for banners, where it will be place in front of busy images.
+  cart:
+    title: "Cart"
+    description: |
+      The cart button is used for the checkout process. It should be used in front of light backgrounds.
+    background: "--color-primary"
+  cart-light:
+    title: "Cart Light"
+    description: |
+      The cart button light is also used for the checkout process. It should be used in front of dark backgrounds.
+    background: "--color-secondary"
+  light:
+    title: "Light"
+    description: |
+      Default to using the basic button. It should be used in front of dark backgrounds.
+  light-ghost:
+    title: "Light Ghost"
+    description: |
+      A light coloured version of the ghost button.

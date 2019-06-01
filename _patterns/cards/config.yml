@@ -1,0 +1,21 @@
+title: "Cards"
+description: |
+  Cards can be used to display a grouping of elements in a visually pleasing way.
+
+patterns:
+  cart-card:
+    title: "Cart Card"
+    description: |
+      The cart card should be used to display the products that have been added to the customers cart.
+  image-card:
+    title: "Image Card"
+    description: |
+      The image card should be used as a visually pleasing link to another page.
+  product-card:
+    title: "Product Card"
+    description: |
+      The product card should be used to display different products that can be purchased.
+  details-card:
+    title: "Details Card"
+    description: |
+      The details card should be used to display a product and all of the information related to that product.
