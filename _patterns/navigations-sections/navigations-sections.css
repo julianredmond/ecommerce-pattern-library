@@ -1,0 +1,7 @@
+a {
+  color: var(--color-text);
+}
+
+a:focus {
+  color: var(--color-secondary-light);
+}

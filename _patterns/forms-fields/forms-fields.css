@@ -1,3 +1,7 @@
-.country {
-  color: var(--color-primary);
+.first-name, .last-name, .address, .postal-code, .email, .delivery-instructions, .country {
+  background-color: var(--color-primary);
+}
+
+.first-name:focus, .last-name:focus, .address:focus, .postal-code:focus, .email:focus, .delivery-instructions:focus, .country:focus {
+  background-color: var(--color-text-secondary);
 }

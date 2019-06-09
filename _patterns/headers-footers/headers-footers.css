@@ -1,0 +1,12 @@
+.nav-banner {
+  background-color: var(--color-primary);
+  text-decoration: none;
+}
+
+.image {
+  max-width: 10rem;
+}
+
+a {
+  text-decoration: none;
+}

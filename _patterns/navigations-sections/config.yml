@@ -1,0 +1,13 @@
+title: "Navigations and Sections"
+description: |
+  Secondary navigations to scroll between pages.
+
+patterns:
+  go-back:
+    title: "Forward Back Navigation"
+    description: |
+      The forward back navigation lets people take a step back or forwards to another page.
+  page-nav:
+    title: "Page Navigation"
+    description: |
+      The page navigation lets people scroll through all the pages of available products.
