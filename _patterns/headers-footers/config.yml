@@ -1,0 +1,13 @@
+title: "Headers and Footers"
+description: |
+  Headers and footers are to be used at the top and bottom of pages as the main ways of navigation.
+
+patterns:
+  header:
+    title: "Header"
+    description: |
+      The header should be used to contain the main navigation elements for the website.
+  footer:
+    title: "Footer"
+    description: |
+      The footer should be used to contain the footer elements such as links to social media pages.

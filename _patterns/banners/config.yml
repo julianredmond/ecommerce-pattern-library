@@ -7,11 +7,3 @@ patterns:
     title: "Image Banner"
     description: |
       The image banner should be used to display images and create interest on a page.
-  footer-banner:
-    title: "Footer Banner"
-    description: |
-      The footer banner should be used to contain the footer elements.
-  nav-banner:
-    title: "Nav Banner"
-    description: |
-      The nav banner should be used to contain the navigation elements.
