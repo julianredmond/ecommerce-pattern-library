@@ -5,6 +5,10 @@
   max-width: 40rem;
 }
 
+.text {
+  color: var(--color-text);
+}
+
 .text-white {
   color: var(--color-text-secondary);
 }
@@ -24,7 +28,7 @@
 }
 
 .image-large {
-  max-width: 30rem;
+  max-width: 20rem;
 }
 
 .cart-card {

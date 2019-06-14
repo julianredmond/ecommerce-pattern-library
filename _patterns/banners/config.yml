@@ -4,6 +4,21 @@ description: |
 
 patterns:
   image-banner:
+    fields:
+      - name: heading
+        type: string
+        example: "New Flip Video Out Now!"
+      - name: image
+        type: string
+        example: "tail-slide.jpg"
+      - name: button_text
+        type: string
+        example: "Watch Now"
+        required: false
+      - name: button_url
+        type: url
+        example: /products/
+        required: false
     title: "Image Banner"
     description: |
       The image banner should be used to display images and create interest on a page.

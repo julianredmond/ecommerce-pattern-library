@@ -1,4 +1,9 @@
 <div class="image-banner">
-  <img class="relative img-flex" src="/images/tail-slide.jpg">
-  <h5 class="pin-rb">Sam Churchill</h5>
+  <img class="relative img-flex" src="/images/{{include.image}}">
+  <div class="absolute pin-left-center gutter">
+    <h3 class="heading">{{include.heading}}</h3>
+    {% if include.button_url %}
+      {% pattern buttons/basic url=include.button_url text=include.button_text %}
+    {% endif %}
+  </div>
 </div>
