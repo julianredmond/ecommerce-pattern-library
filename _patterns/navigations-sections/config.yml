@@ -6,7 +6,7 @@ patterns:
   go-back:
     title: "Forward Back Navigation"
     description: |
-      The forward back navigation lets people take a step back or forwards to another page.
+      The forward back navigation lets people take a step back or forwards to previous page.
   page-nav:
     title: "Page Navigation"
     description: |

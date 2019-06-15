@@ -12,6 +12,10 @@
   font-weight: var(--font-weight-normal);
 }
 
-a:hover {
+.social-media:hover {
   color: var(--color-secondary);
+}
+
+.no-underline {
+  text-decoration: none;
 }

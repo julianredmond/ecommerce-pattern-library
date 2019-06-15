@@ -1,6 +1,6 @@
 title: "Forms and Fields"
 description: |
-  Forms and fields are to be used on the checkout page so the customer can enter information.
+  Forms and fields are to be used on the checkout page so the customer can enter their personal information.
 
 patterns:
   first-name:

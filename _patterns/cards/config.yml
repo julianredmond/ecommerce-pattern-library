@@ -11,6 +11,12 @@ patterns:
     title: "Image Card"
     description: |
       The image card should be used as a visually pleasing link to another page.
+    fields:
+      - name: data
+        type: object
+        date:
+          source: "site.products[0]"
+          type: Product
   product-card:
     title: "Product Card"
     description: |

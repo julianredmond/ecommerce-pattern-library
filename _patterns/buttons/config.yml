@@ -14,7 +14,6 @@ patterns:
     title: "Basic"
     description: |
       Default to using the basic button. It should be used in front of light backgrounds.
-    width: "12em"
     background: "--color-primary"
   ghost:
     title: "Ghost"
@@ -23,12 +22,12 @@ patterns:
   cart:
     title: "Cart"
     description: |
-      The cart button is used for the checkout process. It should be used in front of light backgrounds.
+      The cart button is used for the checkout process. It should be placed in front of light backgrounds.
     background: "--color-primary"
   cart-light:
     title: "Cart Light"
     description: |
-      The cart button light is also used for the checkout process. It should be used in front of dark backgrounds.
+      The cart button light can also be used for the checkout process. It should be placed in front of dark backgrounds.
     background: "--color-secondary"
   light:
     title: "Light"

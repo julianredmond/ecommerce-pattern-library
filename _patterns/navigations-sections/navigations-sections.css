@@ -1,7 +1,12 @@
-a {
+.back {
   color: var(--color-text);
+  text-decoration: none;
 }
 
-a:focus {
-  color: var(--color-secondary-light);
+.back:hover {
+  color: var(--color-secondary-light)
+}
+
+.back:focus {
+  color: var(--color-secondary);
 }

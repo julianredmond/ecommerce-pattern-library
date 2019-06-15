@@ -1,13 +1,13 @@
 <div class="product-card island">
   <div class="product-border">
-    <img class="img-flex island" src="/images/skate-deck-2.jpg" alt="#">
+    <img class="img-flex island" src="{{include.data.image}}" alt="#">
   </div>
   <div class="left">
-    <h2 class="pad-t push-none">World Industries</h2>
-    <p>Wet Willy Regrets Skateboard Deck - 8.3” x 32”</p>
-    <h3 class="text">$65.00</h3>
+    <h2 class="pad-t push-none">{{include.data.title}}</h2>
+    <p class="product-card">{{include.data.description}}</p>
+    <h3 class="text">{{include.data.cost}}</h3>
   </div>
   <div class="right pad-t-2">
-    {% pattern buttons/ghost %}
+    {% pattern buttons/ghost text="View" url=include.data.url %}
   </div>
 </div>

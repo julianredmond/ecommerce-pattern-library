@@ -13,7 +13,7 @@
   color: var(--color-text-secondary);
 }
 
-.product-card, p {
+.product-card {
   color: var(--color-text);
   max-width: 30rem;
 }
@@ -23,16 +23,8 @@
   border-radius: 10px;
 }
 
-.details-card {
-
-}
-
 .image-large {
   max-width: 20rem;
-}
-
-.cart-card {
-
 }
 
 .underline {
