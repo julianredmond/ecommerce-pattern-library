@@ -14,13 +14,19 @@ patterns:
     fields:
       - name: data
         type: object
-        date:
-          source: "site.products[0]"
-          type: Product
+        data:
+          source: "site.home-cards[0]"
+          type: home-card
   product-card:
     title: "Product Card"
     description: |
       The product card should be used to display different products that can be purchased.
+    fields:
+      - name: data
+        type: object
+        date:
+          source: "site.products[0]"
+          type: product
   details-card:
     title: "Details Card"
     description: |
