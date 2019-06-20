@@ -5,6 +5,10 @@ patternbot:
   layouts:
     default: |
       The default layout should be used for almost every page, it contains the website's primary header and footer.
+    product: |
+      The product layout should be used for the products page.
+    home: |
+      The home layout should be used for the home page.
   title: "Woodpushas"
   description: |
     An online skateboard goods store that carries high quality products.
@@ -22,11 +26,13 @@ patternbot:
       The primary colours represent the wood used to build skateboards. They are to be used for banners and buttons.
     colors.secondary: |
       The secondary colours are darker, more neutral wood tones. They are to be used as background colours.
+
 collections:
   products:
     output: true
-  home:
+  home-cards:
     output: true
+
 defaults:
   - scope:
       path: _products

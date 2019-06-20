@@ -8,32 +8,79 @@ patterns:
       - name: text
         type: string
         example: "Watch Video"
+        required: false
       - name: url
         type: url
         example: "/products/"
+        required: false
     title: "Basic"
     description: |
       Default to using the basic button. It should be used in front of light backgrounds.
     background: "--color-primary"
   ghost:
+    fields:
+      - name: text
+        type: string
+        example: "Watch Video"
+        required: false
+      - name: url
+        type: url
+        example: "/products/"
+        required: false
     title: "Ghost"
     description: |
       The ghost button is specifically for banners, where it will be place in front of busy images.
   cart:
+    fields:
+      - name: text
+        type: string
+        example: "Watch Video"
+        required: false
+      - name: url
+        type: url
+        example: "/products/"
+        required: false
     title: "Cart"
     description: |
       The cart button is used for the checkout process. It should be placed in front of light backgrounds.
     background: "--color-primary"
   cart-light:
+    fields:
+      - name: text
+        type: string
+        example: "Watch Video"
+        required: false
+      - name: url
+        type: url
+        example: "/products/"
+        required: false
     title: "Cart Light"
     description: |
       The cart button light can also be used for the checkout process. It should be placed in front of dark backgrounds.
     background: "--color-secondary"
   light:
+    fields:
+      - name: text
+        type: string
+        example: "Watch Video"
+        required: false
+      - name: url
+        type: url
+        example: "/products/"
+        required: false
     title: "Light"
     description: |
       Default to using the basic button. It should be used in front of dark backgrounds.
   light-ghost:
+    fields:
+      - name: text
+        type: string
+        example: "Watch Video"
+        required: false
+      - name: url
+        type: url
+        example: "/products/"
+        required: false
     title: "Light Ghost"
     description: |
       A light coloured version of the ghost button.

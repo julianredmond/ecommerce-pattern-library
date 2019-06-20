@@ -3,10 +3,10 @@
     <img class="img-flex" src="/images/skate-deck-2.jpg" alt="#">
   </div>
   <div class="right island">
-    <h2 class="push-none">World Industries</h2>
-    <h5 class="push-2">Wet Willy Regrets Skateboard Deck</h5>
+    <h2 class="push-none">{{include.data.title}}</h2>
+    <h5 class="push-2">{{include.data.description}}</h5>
     <h5 class="push-none">Price:</h5>
-    <h4>$65.00</h4>
+    <h4>${{include.data.cost}}</h4>
     <h6 class="push-none">Size:</h6>
     <div class="push-2">
       {% pattern buttons/light %}
