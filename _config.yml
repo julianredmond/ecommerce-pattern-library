@@ -32,6 +32,8 @@ collections:
     output: true
   home-cards:
     output: true
+  product-details:
+    output: true
 
 defaults:
   - scope:
@@ -42,3 +44,7 @@ defaults:
       path: _home-cards
     values:
       layout: home
+  - scope:
+      path: _product-details
+    values:
+      layout: product

@@ -31,3 +31,9 @@ patterns:
     title: "Details Card"
     description: |
       The details card should be used to display a product and all of the information related to that product.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.product-details[0]"
+          type: product-detail
