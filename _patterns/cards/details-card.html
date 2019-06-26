@@ -1,6 +1,6 @@
 <div>
   <div class="image-large left pad-t">
-    <img class="img-flex" src="/images/skate-deck-2.jpg" alt="#">
+    <img class="img-flex" src="{{include.data.image}}" alt="">
   </div>
   <div class="right island">
     <h2 class="push-none">{{include.data.title}}</h2>
@@ -9,12 +9,12 @@
     <h4>${{include.data.cost}}</h4>
     <h6 class="push-none">Size:</h6>
     <div class="push-2">
-      {% pattern buttons/light %}
-      {% pattern buttons/light %}
-      {% pattern buttons/light %}
+      {% pattern buttons/light text="8" %}
+      {% pattern buttons/light text="8.25" %}
+      {% pattern buttons/light text="8.5" %}
     </div>
     <div class="pad-t-2">
-      {% pattern buttons/basic text="Watch Video" url="/products/" %}
+      {% pattern buttons/basic text="Add to Cart" url="include.data.url" %}
     </div>
   </div>
 </div>
