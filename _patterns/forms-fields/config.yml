@@ -7,26 +7,62 @@ patterns:
     title: "First Name"
     description: |
       The first name field allows the customer to enter their first name.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.checkout[0]"
+          type: checkout
   last-name:
     title: "Last Name"
     description: |
       The last name field allows the customer to enter their last name.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.checkout[0]"
+          type: checkout
   address:
     title: "Address"
     description: |
       The address field allows the customer to enter their home address.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.checkout[0]"
+          type: checkout
   postal-code:
     title: "Postal Code"
     description: |
       The postal code field allows the customer to enter their home postal code.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.checkout[0]"
+          type: checkout
   email:
     title: "Email"
     description: |
       The email field allows the customer to enter their personal email.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.checkout[0]"
+          type: checkout
   delivery-instructions:
     title: "Delivery Instructions"
     description: |
       The delivery instructions field allows the customer to enter special delivery instructions for their order.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.checkout[0]"
+          type: checkout
   check-box:
     title: "Check Box"
     description: |
@@ -35,3 +71,9 @@ patterns:
     title: "Country"
     description: |
       The country field allows the customer to choose from a list of available countries.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.checkout[0]"
+          type: checkout
