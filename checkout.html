@@ -1,3 +1,7 @@
 ---
 layout: default
 ---
+
+{% for checkout in site.checkout %}
+  {% pattern forms-fields/first-name data=checkout %}
+{% endfor %}

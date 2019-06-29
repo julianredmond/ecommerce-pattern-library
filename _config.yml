@@ -34,6 +34,8 @@ collections:
     output: true
   product-details:
     output: true
+  checkout:
+    output: true
 
 defaults:
   - scope:
@@ -48,3 +50,7 @@ defaults:
       path: _product-details
     values:
       layout: product
+  - scope:
+      path: _checkout
+    values:
+      layout: default
